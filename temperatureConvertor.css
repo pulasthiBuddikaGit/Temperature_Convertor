@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#ctemp {
+    cursor:grab;
+}
+
+#ctemp:active {
+    cursor:grabbing;
+}
+
+#ftemp {
+    cursor:grab;
+}
+
+#ftemp:active {
+    cursor:grabbing;
+}
+
+#myLabel {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+/* Responsive styling */
+@media (max-width: 600px) {
+    input[type="text"], input[type="radio"], button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
